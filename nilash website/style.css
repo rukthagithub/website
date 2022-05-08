@@ -1,0 +1,255 @@
+button{
+    width:100px;
+    height:40px;
+    text-align: center;
+   background-color: orangered;
+    
+}
+.kane{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    padding-top: 400px;
+    background-image:url(images/Nature2_.jpg);
+    width:2000px;
+    height:800px;
+ text-align: center;
+    background-size: cover;
+   
+    top:50%;
+    left:50%;
+    transform: translateX(-50%,-50%);
+    
+}
+
+.box1 input{
+    box-sizing: border-box;
+    border: 3px solid black;
+    width: 330px;
+    height:76px;
+   font-size: 26px;
+    border-radius: 18px;
+    padding-left: 10px;
+   
+    
+}
+.box1 button{
+    border: 3px solid red;
+        box-sizing: border-box;
+    width: 200px;
+    height:76px;
+    border-radius: 18px;
+    
+}
+.fa fa-search{
+    background-color:white;
+}
+#camera{
+    font-size: 60px;
+    background-color: white;
+}
+#search{
+    font-size: 30px;
+    color:white;
+}
+.box2{
+    width:2000px;
+    height:800px;
+    box-sizing: border-box;
+   
+}
+strong{
+    color:red;
+}
+
+
+
+.portfolio-menu{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.portfolio-menu ul li{
+		list-style: none;
+		display: inline-block;
+		margin:20px 0px;
+		font-size: 20px;
+		font-weight: bold;
+		font-family: sans-serif;
+		padding: 10px 20px;
+		cursor: pointer;
+		transition: 0.5s ease;
+		text-align: center;
+		
+
+	}
+.filter-gallery{
+	padding:100px;
+
+}
+	.portfolio-menu ul li:hover{
+		background:  #e74c3c;
+		color: white;
+		border-radius: 8px;
+	}
+	li.active{
+		background:#e74c3c;
+		color: white;
+		border-radius: 8px;
+	}
+
+	.portfolio-item{
+		width: 100%;
+        margin-bottom: 500px;
+	}
+	.portfolio-item .item{
+		width:360px ;
+		height:360px;
+		float: left;
+		margin-bottom:20px;
+		margin-right: 20px;
+	}
+.portfolio-item .item img{
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+}
+.apple{
+  text-align: center;
+    margin-bottom: 60px;
+}
+.newsletter{
+    display: flex;
+   box-sizing: border-box;
+    border: 3px solid grey;
+    width:2100px;
+    height:150px;
+
+    background-color: #4d4c4c;
+}
+.khali{
+   box-sizing: border-box;
+    border: 3px solid grey;  
+    background-color: #4d4c4c;
+       width:2100px;
+    height:550px;
+}
+.information{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#whatsapp{
+    font-size:30px;
+}
+.newsletter{
+    display: grid;
+    grid-auto-rows: auto auto;
+}
+.newsletter{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:30px;
+	border:1px solid rgba(255,255,255,0.2);
+    
+}
+
+.n-text{
+	
+	text-align: right;
+}
+.newsletter h2{
+	font-size: 2em;
+	font-family: sans-serif;
+}
+.newsletter p{
+	font-size: 20px;
+	margin-top: 10px;
+}
+.newsletter label{
+	position: relative;
+
+}
+.newsletter input{
+	padding: 20px;
+	width: 80%;
+	border-radius: 8px;
+	border:none;
+	outline: none;
+	font-family: sans-serif;
+}
+.newsletter button{
+	position: absolute;
+	right: 0;
+	padding: 20px;
+	width: 40%;
+	background: #e74c3c;
+	color: white;
+	border:none;
+	outline: none;
+	border-radius: 0 8px 8px 0;
+}
+
+
+
+
+
+
+.f-contact{
+    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   
+}
+#whatsapp{
+    font-size: 50px;
+    margin-left: 5px;
+}
+#instagram{
+   
+    font-size: 50px;
+     margin-left: 5px;
+}
+#telegram{
+      font-size: 50px;
+     margin-left: 5px;
+}
+#twitter{
+    font-size: 50px;  
+     margin-left: 5px;
+}
+
+
+
+.contact-form{
+    padding:5rem 0;
+    background:#f7f7f7;
+    
+}
+
+.form-wrapper::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.form-wrapper .company-address{
+    background:#fff;
+    
+    width:49%;
+    float:left;
+    padding:1rem;
+    height:760px;
+}
+.form-wrapper .form{
+    
+    width:49%;
+    float:right;
+    background:#fff;
+    padding:1rem;
+}
+
+.form-wrapper .company-address i{
+    display:inline-block;
+    margin-right: 1rem;
+    
